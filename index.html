@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Project</title>
+</head>
+<body>
+  
+
+  <h1 id="title">Learning to code community</h1>
+  <p id="description">Let us know a bit more about your experience learning to code</p>
+
+<main>
+
+<form id="survey-form" action="" method="">
+ <fieldset>
+  <label for="name" id="name-label">Name <input id="name" name="enter-name" type="text" required placeholder="Enter your name"></label> 
+    <label for="email" id="email-label">Email <input id="email" name="enter-email" type="email" required placeholder="Enter your email"></label>
+  <label for="number" id="number-label">Age (optional) <input id="number" name="enter-age" type="number" min="13" max="120" placeholder="Enter your age"></label>
+ </fieldset>
+ <fieldset>
+  <label for="dropdown">What is your favorite programming language?
+<select name="dropdown" id="dropdown">JavaScript
+ <option value="">(select one)</option>
+ <option value="1">Python</option>
+ <option value="2">Java</option>
+ <option value="3">JavaScript</option>
+ <option value="4">C#</option>
+ <option value="5">Other</option>
+</select>
+</fieldset>
+<fieldset>
+  <label>What would be your level?</label>
+      <input type="radio" id="myRadio1" name="group1" value="1"><label for="myRadio1">Beginner</label>
+    <input type="radio" id="myRadio2" name="group1" value="2"><label for="myRadio2">Intermediate</label>
+  <input type="radio" id="myRadio3" name="group1" value="3"><label for="myRadio3">Advance</label>
+</fieldset>
+  <label for="">Which soft skills do you think are the most important?</label>
+ </fieldset><input type="checkbox" id="myCheckbox1" value="1"><label for="myCheckbox1">Communication</label>
+</fieldset><input type="checkbox" id="myCheckbox2" value="2"><label for="myCheckbox2">Teamwork and conflict resolution</label>
+</fieldset><input type="checkbox" id="myCheckbox3" value="3"><label for="myCheckbox3">solving</label>
+</fieldset><input type="checkbox" id="myCheckbox4" value="4"><label for="myCheckbox4">Empathy</label>
+</fieldset><input type="checkbox" id="myCheckbox5" value="5"><label for="myCheckbox5">Patience</label>
+</fieldset><input type="checkbox" id="myCheckbox6" value="6"><label for="myCheckbox6">Curiosity</label>
+</fieldset><input type="checkbox" id="myCheckbox7" value="7"><label for="myCheckbox7">Adaptability</label>
+</fieldset><input type="checkbox" id="myCheckbox8" value="8"><label for="myCheckbox8">Accountability</label>
+</fieldset><input type="checkbox" id="myCheckbox9" value="9"><label for="myCheckbox9">Time management</label>
+</fieldset><input type="checkbox" id="myCheckbox10" value="10"><label for="myCheckbox10">Collaboration and communication</label>
+</fieldset><input type="checkbox" id="myCheckbox11" value="11"><label for="myCheckbox11">Multitasking</label>
+
+ <fieldset>
+  <label for="experience">Tell us about your experience learning to code
+  <textarea name="experience" id="experience" cols="30" rows="3"></textarea>
+</label>
+ </fieldset>
+
+<input id="submit" type="submit" value="submit">
+
+</form>
+</main>
+
+</body>
+</html>
